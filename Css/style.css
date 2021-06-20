@@ -1,5 +1,5 @@
 #welcomeDelani {
-	background-image: url("../images/assets/backgrounds/bckgrnd1.jpg");
+	background-image: url("../images/bckgrnd1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -15,7 +15,7 @@
 	padding: 170px;
       }
       #delaniServices {
-	background-image: url(../images/assets/backgrounds/bckgrnd2.jpg);
+	background-image: url(../images/bckgrnd2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -118,7 +118,7 @@
 	}
       }
       #form_container {
-	background-image: url(../images/assets/backgrounds/bckgrnd3.jpg);
+	background-image: url(../images/bckgrnd3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
