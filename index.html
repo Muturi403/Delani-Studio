@@ -214,23 +214,85 @@
         </div>
       </div>
     </div>
-
-
-    <div class="icons" id="image-icons">
-      <img src="./images/assets/social_icons/twitter.png" alt="" />
-      <img src="./images/assets/social_icons/dribble.png" alt="" />
-      <img src="./images/assets/social_icons/facebook.png" alt="" />
-      <img src="./images/assets/social_icons/g_plus.png" alt="" />
-      <img src="./images/assets/social_icons/skype.png" alt="" />
-      <img src="./images/assets/social_icons/stumble_upon.png" alt="" />
-      <img src="./images/assets/social_icons/behance.png" alt="" />
-      <img src="./images/assets/social_icons/pinterest.png" alt="" />
-      <img src="./images/assets/social_icons/flickr.png" alt="" />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md col-md-offset-3" id="form_container">
+          <h3><b>CONTACT US</b></h3>
+          <form
+            action="https://gmail.us17.list-manage.com/subscribe/post?u=0f8550f6a7d62b5c6de5e392d&amp;id=ae734b29ee"
+            method="post"
+            id="reused_form"
+            name="feedback"
+          >
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Name...."
+                  style="color: white"
+                  required
+                />
+              </div>
+              <div class="col-sm-6 form-group">
+                <label for="email"> Email:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Email.."
+                  required
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 form-group" id="place">
+                <label for="message"> Message:</label>
+                <textarea
+                  class="form-control"
+                  type="textarea"
+                  name="message"
+                  id="message"
+                  maxlength="6000"
+                  rows="7"
+                  placeholder="Your message here.."
+                ></textarea>
+              </div>
+            </div>
+            #name, #message, #email { color: white;#name, #message, #email {
+            color: white; } }
+            <div class="row">
+              <div class="col-sm-12 form-group">
+                <button
+                  type="submit"
+                  class="btn btn-outline-light btn-lg btn-block"
+                  onclick="feedback()"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="sent">
+            <div
+              id="success_message"
+              style="width: 100%; height: 100%; display: show"
+            >
+              <h3>
+                Your subscription to our list has been confirmed.Thank you for
+                subscribing!
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <br />
-    <div class="footer">
-      <p id="delani-footer">DELANI STUDIO<br />2019</p>
-    </div>
+
+    
   </body>
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
