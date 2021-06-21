@@ -7,14 +7,17 @@
 	text-align: center;
 	padding: 100px;
 	color: white;
-      }
-      #logo-img {
+}
+
+#logo-img {
 	padding: 80px;
-      }
-      #mouse-icon {
+}
+
+#mouse-icon {
 	padding: 170px;
-      }
-      #delaniServices {
+}
+
+#delaniServices {
 	background-image: url(../images/bckgrnd2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -23,73 +26,74 @@
 	text-align: center;
 	padding: 100px;
 	color: white;
-      }
-      #aboutDelani {
+}
+
+#aboutDelani {
 	text-align: center;
-      }
-      #whatWeDo {
+}
+
+#whatWeDo {
 	text-align: center;
 	padding-left: 10px;
-      }
-      h3,
-      h2 {
+}
+
+h3,h2 {
 	font-weight: bold;
-      }
-      h2,
-      h4 {
+}
+
+h2,h4 {
 	text-align: center;
-      }
-      #image-icons {
+}
+
+#image-icons {
 	text-align: center;
-      }
-      #delani-footer {
+}
+
+#delani-footer {
 	text-align: center;
-      }
-      #design-paragraph,
-      #development-paragraph,
-      #product-paragraph {
+}
+
+#design-paragraph, #development-paragraph, #product-paragraph {
 	display: none;
 	text-align: center;
-      }
-      #design-icon,
-      #development-icon,
-      #product-icon {
+}
+
+#design-icon, #development-icon, #product-icon {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-      }
-      .portfolio {
+}
+
+.portfolio {
 	padding-top: 20px;
 	padding-bottom: 30px;
 	padding-left: 9%;
 	padding-right: 9%;
-      }
-      .portfolio > h2 {
+}
+
+.portfolio > h2 {
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
-      }
-      .portfolio > P {
+}
+
+.portfolio > P {
 	text-align: start;
 	vertical-align: top;
-      }
-      #pro {
+}
+
+#pro {
 	margin-top: 30%;
 	text-align: center;
 	font-size: 25px;
-      }
-      .col-space {
+}
+
+.col-space {
 	margin-top: 20px;
 	margin-bottom: 20px;
-      }
-      .work0,
-      .work1,
-      .work2,
-      .work3,
-      .work4,
-      .work5,
-      .work6,
-      .work7 {
+}
+
+.work0, .work1,.work2,.work3,.work4,.work5,.work6,.work7 {
 	width: 100%;
 	height: 100%;
 	background-color: white;
@@ -99,46 +103,50 @@
 	display: none;
 	color: black;
 	font-size: 20px;
-      }
-      
-      /* user's contact form */
-      body {
+}
+
+   
+/* user's contact form */
+body {
 	font-family: Arial, Helvetica, sans-serif;
-      }
+}
       
-      /* Style the container/contact section */
-      .container {
+/* Style the container/contact section */
+.container {
 	background-color: transparent;
-      }
-      @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
 	.column,
 	input[type="submit"] {
 	  width: 100%;
 	  margin-top: 0;
 	}
-      }
-      #form_container {
+}
+
+#form_container {
 	background-image: url(../images/bckgrnd3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: transparent;
-      }
-      #name,
-      #message,
-      #email {
+}
+
+#name, #message, #email {
 	background-color: transparent;
 	color: white;
-	}
-      ::-ms-input-placeholder {
+}
+
+::-ms-input-placeholder {
 	color: white;
 	font-weight: bold;
-      }
-      input {
+}
+
+input {
 	color: white;
 	background-color: transparent;
-      }
-      .success,
-      .error {
+}
+
+.success,.error {
 	display: show;
-      }
+}
